@@ -1,0 +1,10 @@
+.panel.integrated-terminal,
+.panel.integrated-terminal *, .panel.integrated-terminal .xterm-rows div{
+  /* background-color: #000; */
+  background: transparent !important;
+}
+
+.monaco-workbench .panel.integrated-terminal .find-focused .xterm .xterm-viewport, .monaco-workbench .panel.integrated-terminal .xterm.focus .xterm-viewport, .monaco-workbench .panel.integrated-terminal .xterm:focus .xterm-viewport, .monaco-workbench .panel.integrated-terminal .xterm:hover .xterm-viewport{
+  background: transparent !important;
+
+}
